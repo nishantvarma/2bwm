@@ -1,4 +1,7 @@
-///---Types---///
+#include <stdint.h>
+#include <xcb/randr.h>
+#include <xcb/xcb_xrm.h>
+
 struct monitor
 {
     xcb_randr_output_t id;
